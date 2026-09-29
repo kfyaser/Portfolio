@@ -1,0 +1,127 @@
+/*-----------------project styles-------------------*/
+
+.project-container {
+    width: 70%;
+    margin: 0 auto;
+
+    position: relative;
+    margin-top: 7rem;
+}
+
+
+
+.project-container .project-title-box .project-view-all {
+    transition: color 0.3s;
+}
+
+.project-container .project-title-box .project-view-all:hover {
+    color: #C77BDD;
+}
+
+/*-----project list------*/
+.project-container .project-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-container .title-box .title::after {
+    width: 400px;
+}
+
+.project-container .project-list .project-card {
+    border: 1px solid #abb2bf;
+
+}
+
+.project-container .project-list .project-card .project-img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+}
+
+.project-container .project-list .project-card .project-technologies {
+    border-top: 1px solid #abb2bf;
+    border-bottom: 1px solid #abb2bf;
+}
+
+/*-------project details info-------*/
+.project-container .project-list .project-info-box {
+    padding: 1rem;
+}
+
+.project-container .project-list .project-info-box .project-text {
+    margin: 1rem 0;
+    color: #abb2bf;
+}
+
+.project-container .project-info-box .project-actions {
+    display: flex;
+}
+
+.project-container .project-list .project-actions .project-link {
+    border: 1px solid #abb2bf;
+    padding: 0.3rem 1rem;
+    color: #abb2bf;
+    transition: all 0.3s;
+
+}
+
+.project-container .project-list .project-actions .project-link:hover {
+    background-color: #abb2bf37;
+}
+
+.project-container .project-list .project-actions .project-live {
+    color: white;
+    border-color: #C77BDD;
+}
+
+.project-container .project-list .project-actions .project-live:hover {
+    background: #c87bdd49;
+}
+
+
+
+/*-----skills----------*/
+.skills-container .project-title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.skills-container .project-title-box .project-title {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+}
+
+.skills-container .project-title-box .project-title .title-hilight {
+    color: #C77BDD;
+}
+
+/*--------purple line--------*/
+.skills-container .project-title-box .project-title::after {
+    content: "";
+    width: 400px;
+    height: 1px;
+    background: #C77BDD;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 108%;
+}
+
+/*-------project shape------*/
+.project-container .projects-shape {
+    position: absolute;
+    left: -280px;
+    top: 50%;
+}
+
+/*----footer----------*/
+.main-footer {
+    margin-top: 4.5rem;
+}

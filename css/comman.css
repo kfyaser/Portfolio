@@ -1,0 +1,145 @@
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.title-box .title {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+}
+
+.title-box .title .title-hilight {
+    color: #C77BDD;
+}
+
+/*--------purple line--------*/
+.title-box .title::after {
+    content: "";
+    width: 400px;
+    height: 1px;
+    background: #C77BDD;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 108%;
+}
+
+/*=====Header style======*/
+.main-header {
+    padding: 30px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    background: #282c33;
+    width: 100%;
+    z-index: 9;
+
+
+}
+
+
+.main-header .logo-wrapper {
+    display: flex;
+    gap: 6px;
+
+}
+
+/*------navigation list------*/
+.main-header .nav-list {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.main-header .nav-list .nav-link {
+    padding: 0 0.5rem;
+    color: #abb2bf;
+    transition: all 0.3s;
+}
+
+.main-header .nav-list .nav-link .sharp-sign {
+    color: #C77BDD;
+}
+
+
+
+
+/*--------hover effect--------*/
+.main-header .nav-list .nav-link:hover {
+    color: white;
+}
+
+.main-header .nav-list .nav-link.active {
+    color: white;
+}
+
+
+/*--------Fixed social icons--------*/
+.socials-container {
+    position: fixed;
+    z-index: 100;
+    left: 30px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.socials-container .socials-line {
+    width: 1px;
+    height: 150px;
+    background: #abb2bf;
+    margin-bottom: 10px;
+
+}
+
+.socials-container .social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.socials-container .social-list .social-link {
+    color: #abb2bf;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+
+}
+
+.socials-container .social-list .social-link:hover {
+    color: white;
+}
+
+/*......footer........*/
+
+.main-footer {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1.7rem;
+}
+
+.main-footer .logo-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 1rem;
+}
+
+.main-footer .copy-right-text {
+    text-align: center;
+    color: #abb2bf;
+    margin-top: 3rem;
+}
+
+.main-footer .copy-right-text .footer-link {
+    color: white;
+    text-decoration: underline;
+}

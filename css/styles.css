@@ -1,0 +1,467 @@
+
+
+/*----------------------------------------bannner style------------------------------------------*/
+.yaser-banner-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    padding-top: 4rem;
+    height: 100dvh;
+
+}
+
+
+
+
+/*----------left---------*/
+
+
+
+.yaser-banner-container .left-section {}
+
+.yaser-banner-container .left-section .banner-title {
+    font-size: 2.4rem;
+
+}
+
+.yaser-banner-container .left-section .banner-title .banner-title-hilight {
+    color: #C77BDD;
+}
+
+.yaser-banner-container .left-section .banner-text {
+    margin: 2rem 0;
+    color: #abb2bf;
+    font-size: 1.2rem;
+}
+
+.yaser-banner-container .left-section .banner-link {
+    border: 1px solid #C77BDD;
+    padding: 8px 12px;
+    background: #282828;
+    font-size: 16px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.yaser-banner-container .left-section .banner-link:hover {
+    background: rgba(199, 123, 221, 0.2);
+}
+
+
+
+
+/*----right----*/
+.yaser-banner-container .right-section {
+    position: relative;
+}
+
+
+
+.yaser-banner-container .right-section .banner-img {
+    width: 50%;
+    margin-inline-start: 20%;
+
+}
+
+.yaser-banner-container .right-section .banner-accupation {
+    position: relative;
+    background: #282828;
+    padding: 5px 10px;
+    text-align: center;
+    top: -20px;
+    border: 1px solid #abb2bf;
+    color: #abb2bf;
+
+}
+
+.yaser-banner-container .right-section .banner-accupation .banner-occupation-hilight {
+    color: white;
+}
+
+.yaser-banner-container .right-section .banner-shape {
+    position: absolute;
+    top: 230px;
+    right: 40px;
+    z-index: -1;
+}
+
+/*--------slogan styles----------*/
+.slogan-container {
+    text-align: center;
+}
+
+.slogan-container .slogan-box {
+    display: inline-block;
+    border: 1px solid #abb2bf;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    position: relative;
+
+
+}
+
+.slogan-container .slogan-box .qoute {
+    position: absolute;
+    width: 35px;
+}
+
+.slogan-container .slogan-box .qoute.left-qoute {
+    top: -20px;
+    left: 10px;
+}
+
+.slogan-container .slogan-box .qoute.right-qoute {
+    bottom: -10px;
+    right: 10px;
+}
+
+/*-----------------project styles-------------------*/
+
+.project-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    margin-bottom: 7rem;
+    position: relative;
+}
+
+
+
+.project-container .project-title-box .project-view-all {
+    transition: color 0.3s;
+}
+
+.project-container .project-title-box .project-view-all:hover {
+    color: #C77BDD;
+}
+
+/*-----project list------*/
+.project-container .project-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-container .title-box .title::after {
+    width: 400px;
+}
+
+.project-container .project-list .project-card {
+    border: 1px solid #abb2bf;
+
+}
+
+.project-container .project-list .project-card .project-img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+}
+
+.project-container .project-list .project-card .project-technologies {
+    border-top: 1px solid #abb2bf;
+    border-bottom: 1px solid #abb2bf;
+}
+
+/*-------project details info-------*/
+.project-container .project-list .project-info-box {
+    padding: 1rem;
+}
+
+.project-container .project-list .project-info-box .project-text {
+    margin: 1rem 0;
+    color: #abb2bf;
+}
+
+.project-container .project-info-box .project-actions {
+    display: flex;
+}
+
+.project-container .project-list .project-actions .project-link {
+    border: 1px solid #abb2bf;
+    padding: 0.3rem 1rem;
+    color: #abb2bf;
+    transition: all 0.3s;
+
+}
+
+.project-container .project-list .project-actions .project-link:hover {
+    background-color: #abb2bf37;
+}
+
+.project-container .project-list .project-actions .project-live {
+    color: white;
+    border-color: #C77BDD;
+}
+
+.project-container .project-list .project-actions .project-live:hover {
+    background: #c87bdd49;
+}
+
+
+
+/*-----skills----------*/
+.skills-container .project-title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.skills-container .project-title-box .project-title {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 400;
+    position: relative;
+}
+
+.skills-container .project-title-box .project-title .title-hilight {
+    color: #C77BDD;
+}
+
+/*--------purple line--------*/
+.skills-container .project-title-box .project-title::after {
+    content: "";
+    width: 400px;
+    height: 1px;
+    background: #C77BDD;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 108%;
+}
+
+/*-------project shape------*/
+.project-container .projects-shape {
+    position: absolute;
+    left: -280px;
+    top: 50%;
+}
+
+/*------skills styles------*/
+.skills-container {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.skills-container .title-box .title::after {
+    width: 300px;
+}
+
+
+.skills-list-wrapper {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.skills-list-wrapper .skills-column {
+    width: 100%;
+}
+
+.skills-list-wrapper .skills-column .skills-box {
+    border: 1px solid #abb2bf;
+    margin-bottom: 1rem;
+}
+
+.skills-list-wrapper .skills-column .skills-box .box-header {
+    border: 1px solid #abb2bf;
+    padding: 0.5rem;
+}
+
+.skills-list-wrapper .skills-column .skills-box .box-content {
+    color: #abb2bf;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5em;
+}
+
+/*-------aboute styles----------*/
+.about-container {
+    width: 70%;
+    margin: 7rem auto;
+    position: relative;
+}
+
+.about-container .title-box .title::after {
+    width: 400px;
+}
+
+.about-yaser-img {
+    width: 50%;
+    margin-inline-start: 30%;
+}
+
+.about-container .about-wrappre {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.about-container .about-wrappre .about-section {
+    width: 50%;
+}
+
+/*.......left section........*/
+.about-container .about-wrappre .left-section {}
+
+.about-container .about-wrappre .left-section .about-description {
+    color: #abb2bf;
+    margin-bottom: 1rem;
+}
+
+.about-container .about-wrappre .left-section .about-btn {
+    border: 1px solid #C77BDD;
+    padding: 8px 12px;
+    display: inline-block;
+    margin-top: 2rem;
+    transition: all 0.3s;
+}
+
+.about-container .about-wrappre .left-section .about-btn:hover {
+    background: rgba(200, 123, 221, 0.278);
+}
+
+/*........right section..............*/
+.about-conatainer .about-wrappr .right-section {
+    text-align: right;
+    margin-top: -65px;
+    position: relative;
+}
+
+.about-container .about-wrappre .right-section .about-yaser-img {
+    border-bottom: 1px solid #C77BDD;
+
+
+}
+
+
+.about-container .about-wrappre .right-section .about-second-shape {
+    position: absolute;
+    top: 60px;
+    right: 300px;
+}
+
+/*------about shape --*/
+.about-shape {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #abb2bf;
+    position: absolute;
+    right: -28%;
+    top: 80%;
+
+}
+
+/*---------contact styles------------*/
+
+.contact-container {
+    width: 70%;
+    margin: 7rem auto;
+    position: relative;
+
+}
+
+.contact-container .title-box .title::after {
+    width: 200px;
+}
+
+.contact-container .contact-wrapper {
+    display: flex;
+}
+
+.contact-container .contact-wrapper .contact-section {
+    width: 50%;
+}
+
+/*.........left section........*/
+.contact-container .contact-wrapper .left-section {}
+
+.contact-container .contact-wrapper .left-section .contact-description {
+    margin-bottom: 2rem;
+    color: #abb2bf;
+}
+
+/*------right section---------*/
+.contact-container .contact-wrapper .right-section {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.contact-container .contact-wrapper .right-section .massege-box {
+    border: 1px solid #abb2bf;
+    display: inline-block;
+    padding: 1rem;
+    text-align: left;
+}
+
+.contact-container .contact-wrapper .right-section .massege-box .massege-header-title {
+    margin-bottom: 1rem;
+}
+
+/*------social list--------*/
+.contact-container .contact-wrapper .right-section .social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.contact-container .contact-wrapper .right-section .social-list .social-link {
+    color: #abb2bf;
+    transition: all 0.3s;
+}
+
+.contact-container .contact-wrapper .right-section .social-list .social-link:hover {
+    color: white;
+}
+/*====contacts shape====*/
+.contact-container .contacts-shape{
+    position: absolute;
+   left: -25%;
+   bottom: 100px;
+}
+
+
+@media 
+(max-width: 768px) {
+    .yaser-banner-container {
+        padding: 0 10px;
+    }
+    .project-container .project-list {
+        flex-direction: column;
+    }
+    .project-container .project-info-box {
+        flex-direction: column;
+    }
+    .skills-container .project-title-box {
+        flex-direction: column;
+    }
+    .skills-container .project-title-box .project-title {
+        width: 100%;
+    }
+    .about-conatainer .about-wrappr .left-section {
+        width: 100%;
+    }
+    .about-conatainer .about-wrappr {
+        flex-direction: column;
+    }
+    .contact-container .contact-wrapper .left-section {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+

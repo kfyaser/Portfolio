@@ -1,0 +1,76 @@
+/*-------aboute styles----------*/
+.about-container {
+    width: 70%;
+    margin: 7rem auto;
+    position: relative;
+}
+
+.about-container .title-box .title::after {
+    width: 400px;
+}
+
+.about-yaser-img {
+    width: 50%;
+    margin-inline-start: 30%;
+}
+
+.about-container .about-wrappre {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.about-container .about-wrappre .about-section {
+    width: 50%;
+}
+
+/*.......left section........*/
+.about-container .about-wrappre .left-section {}
+
+.about-container .about-wrappre .left-section .about-description {
+    color: #abb2bf;
+    margin-bottom: 1rem;
+}
+
+.about-container .about-wrappre .left-section .about-btn {
+    border: 1px solid #C77BDD;
+    padding: 8px 12px;
+    display: inline-block;
+    margin-top: 2rem;
+    transition: all 0.3s;
+}
+
+.about-container .about-wrappre .left-section .about-btn:hover {
+    background: rgba(200, 123, 221, 0.278);
+}
+
+/*........right section..............*/
+.about-conatainer .about-wrappr .right-section {
+    text-align: right;
+    margin-top: -65px;
+    position: relative;
+}
+
+.about-container .about-wrappre .right-section .about-yaser-img {
+    border-bottom: 1px solid #C77BDD;
+
+
+}
+
+
+.about-container .about-wrappre .right-section .about-second-shape {
+    position: absolute;
+    top: 60px;
+    right: 300px;
+}
+
+/*------about shape --*/
+.about-shape {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #abb2bf;
+    position: absolute;
+    right: -28%;
+    top: 80%;
+
+}

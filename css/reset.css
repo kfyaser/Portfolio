@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Fira Code", sans-serif;
+    background-color: #282c33;
+    color: white;
+    overflow-x: hidden;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: "Fira Code", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+
+@font-face {
+    font-family: "Fira Code";
+    src: url(../assets/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf) format(truetype);
+}

@@ -1,0 +1,68 @@
+
+/*---------contact styles------------*/
+
+.contact-container {
+    width: 70%;
+    margin: 7rem auto;
+    position: relative;
+
+}
+
+.contact-container .title-box .title::after {
+    width: 200px;
+}
+
+.contact-container .contact-wrapper {
+    display: flex;
+}
+
+.contact-container .contact-wrapper .contact-section {
+    width: 50%;
+}
+
+/*.........left section........*/
+.contact-container .contact-wrapper .left-section {}
+
+.contact-container .contact-wrapper .left-section .contact-description {
+    margin-bottom: 2rem;
+    color: #abb2bf;
+}
+
+/*------right section---------*/
+.contact-container .contact-wrapper .right-section {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.contact-container .contact-wrapper .right-section .massege-box {
+    border: 1px solid #abb2bf;
+    display: inline-block;
+    padding: 1rem;
+    text-align: left;
+}
+
+.contact-container .contact-wrapper .right-section .massege-box .massege-header-title {
+    margin-bottom: 1rem;
+}
+
+/*------social list--------*/
+.contact-container .contact-wrapper .right-section .social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.contact-container .contact-wrapper .right-section .social-list .social-link {
+    color: #abb2bf;
+    transition: all 0.3s;
+}
+
+.contact-container .contact-wrapper .right-section .social-list .social-link:hover {
+    color: white;
+}
+/*====contacts shape====*/
+.contact-container .contacts-shape{
+    position: absolute;
+   left: -25%;
+   bottom: 100px;
+}
